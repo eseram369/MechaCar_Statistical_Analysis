@@ -93,8 +93,7 @@ How does this information help? Clearly, something went awry in Lot 3's producti
 
 
 - What data is needed to run the statistical test?
-### Sample A: sufficiently large MecharCar sample data set of fuel efficiency
-### Sample B: sufficiently large competition sample data set of fuel efficiency
+### When comparing the MechaCar to its competition, the company should consider using an ANOVA test to compare the MechaCar in various categories that customers would care about: cost, city and highway fuel efficiency, horsepower, safety rating, maintenance cost. ANOVA test can see if the means from multiple different samples are significantly similar or different. That means the averages of different cars  could  be compared to the average of MecaCar. If the p-value is greater than 0.05, then MecaCar has the same or similar performance within these categories (the null hypothesis). If the p-value is less than 0.05, then MecaCar is significantly different in those categories. If it is a significant difference, then looking at the average of the MecaCar is the next step. If MecaCar's average is below or above the other averages, it will show its performance against its competitors (below = worse, above = better).
 
 
 
